@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.streammex"
+       name="StreamMex"
+       version="1.0.0"
+       provider-name="mexdual">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Hungarian IPTV aggregation from playlist sources.</summary>
+        <description lang="en_GB">StreamMex gathers playlists from the protected playlist addon, merges Hungarian channel lists and generates a unified M3U alongside XMLTV EPG data.</description>
+        <summary lang="hu_HU">Magyar IPTV lista összevonása playlist forrásból.</summary>
+        <description lang="hu_HU">A StreamMex a playlist forrásból kinyert magyar csatornákat egyesíti M3U és XMLTV formátumba.</description>
+        <language>en hu</language>
+        <platform>all</platform>
+    </extension>
+</addon>
