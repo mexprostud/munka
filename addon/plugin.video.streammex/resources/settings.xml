@@ -4,5 +4,6 @@
     <setting id="debug_logging" type="bool" label="32021" default="false"/>
     <setting id="output_m3u_path" type="file" source="files" label="32022" default=""/>
     <setting id="output_epg_path" type="file" source="files" label="32023" default=""/>
+    <setting id="refresh_ttl_hours" type="number" label="32025" default="4" />
   </category>
 </settings>
